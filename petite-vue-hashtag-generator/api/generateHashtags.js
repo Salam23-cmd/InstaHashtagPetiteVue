@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': process.env.RAPIDAPI_KEY,
+      'X-RapidAPI-Key': process.env.8fc8e5ff8fmshc70426c179541bcp1c42bfjsn5442a360951b,
       'X-RapidAPI-Host': 'hashtag-generator.p.rapidapi.com'
     }
   };
