@@ -27,12 +27,12 @@
 
   <script type="module">
     async function fetchHashtags(keyword) {
-      const url = `https://hashtagy.p.rapidapi.com/v1/hashtags?keyword=${encodeURIComponent(keyword)}&hl=en&limit=30`;
+      const url = `https://hashtag5.p.rapidapi.com/api/v2.1/tag/predict?keyword=insta`;
       const options = {
         method: 'GET',
         headers: {
           'X-RapidAPI-Key': '8fc8e5ff8fmshc70426c179541bcp1c42bfjsn5442a360951b',
-          'X-RapidAPI-Host': 'hashtagy-generate-hashtags.p.rapidapi.com'
+          'X-RapidAPI-Host': 'hashtag5.p.rapidapi.com'
         }
       };
 
